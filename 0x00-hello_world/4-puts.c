@@ -2,12 +2,9 @@
 
 
 /**
- *
- *  * main - Entry point in program execution
- *
- *   * Return: gives an output of 0 (Success)
- *
- *    */
+ *   main - Entry point in program execution
+ *   Return: gives an output of 0 (Success)
+ */
 
 
 
