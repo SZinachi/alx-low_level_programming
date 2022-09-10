@@ -7,58 +7,35 @@
  *
  *followed by a new line
  *
- *Return: 0 if (successful)
- *
+ *Return: 0 if (succesful)
  */
-
-
 
 int main(void)
 
 {
 
+int n;
 
+for (n = 48; n < 58; n++)
 
-		int n;
+{
 
+putchar(n);
 
+if (n != 57)
 
-			for (n = 48; n < 58; n++)
+{
 
-					{
+putchar(',');
 
-								putchar(n);
+putchar(' ');
 
+}
 
+}
 
-										if (n != 57)
+putchar('\n');
 
-
-
-													{
-
-
-
-																	putchar(',');
-
-
-
-																				putchar(' ');
-
-
-
-																						}
-
-											}
-
-
-
-				putchar('\n');
-
-
-
-					return (0);
-
-
+return (0);
 
 }
