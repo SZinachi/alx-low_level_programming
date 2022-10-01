@@ -4,7 +4,7 @@
  * _pow_recursion - return the value of x raised to power y
  *
  * @x: integer
-i *
+ *
  * @y: number to which x will be powered to
  *
  * Return: x to power y
@@ -19,5 +19,5 @@ return (1);
 else if (y == 1)
 return (x);
 else
-return (x * (_pow_recursion(x, y-1)));
+return (x * _pow_recursion(x, y-1));
 }
