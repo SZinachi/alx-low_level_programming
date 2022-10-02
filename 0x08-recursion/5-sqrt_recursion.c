@@ -22,7 +22,7 @@ else if (g * g > c)
 {
 return (-1);
 }
-else 
+else
 {
 return (sqrt_check(g + 1, c));
 }
